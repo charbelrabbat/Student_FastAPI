@@ -5,6 +5,8 @@ from typing import List
 from pymongo import MongoClient
 from bson import ObjectId
 
+print('')
+
 # MongoDB client setup
 client = MongoClient("mongodb://localhost:27017")
 db = client.students_db  # Database name
