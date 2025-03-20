@@ -5,7 +5,7 @@ from typing import List
 from pymongo import MongoClient
 from bson import ObjectId
 
-print('')
+print('hello')
 
 # MongoDB client setup
 client = MongoClient("mongodb://localhost:27017")
